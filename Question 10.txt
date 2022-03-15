@@ -1,0 +1,10 @@
+void main() {
+ 
+ print ("Question 10) Write a program to replace the “Hyder” to “Islam” in the word “Hyderabad” and display the result.");
+ print ("\n***************************************");
+ 
+  List words = ["Hyder", "Islam"];
+  words[1] = "Abad";
+  print ("\nTHE WORDS AFTER REPLACING THE PROGRAM OF [Hyder, Islam], IT BECOMES ${words}.");
+  print ("\n              *****THE END OF QUESTION 10*****");
+}

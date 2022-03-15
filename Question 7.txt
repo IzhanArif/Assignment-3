@@ -1,0 +1,53 @@
+void main() {
+  
+  print ("Question 7) Write a program that:");
+print ("\na) Store correct password in a JS variable.");
+print ("\nb) Asks user to enter his/her password");
+print ("\nc) Validate the two passwords:");
+print ("\nd) Check if user has entered password. If not, then give message “Please enter your password”");
+print ("\ne) Check if both passwords are same. If they are same, show message “Correct! The password you entered matches the original password.");
+print ("\nf) Show “Incorrect password” otherwise.");
+  print ("\n****************************************************************");
+  print ("\n");
+  print ("SOLUTION FOR PART (a):");
+  print ("**********************");
+  
+  var password1 = "Izhan123";
+  print ("Password Stored In Variable");
+    print ("\n");
+
+  
+  print ("SOLUTION FOR PART (b):");
+  print ("**********************");
+  print ("ENTER YOUR PASSWORD");
+  print ("\n");
+  
+  print ("SOLUTION FOR PART (c):");
+  print ("**********************");
+  password1 = "Izhan123";
+  var password2 = "Izhan123";
+  print ("Two Passwords Validated");
+  print ("\n");
+  
+  print ("SOLUTION FOR PART (d):");
+  print ("**********************");
+  
+  password1 = "Izhan123";
+  password2 = "Izhan456";
+  var checking = (password1 != password2)? "ENTER YOUR PASSWORD" : "CORRECT PASSWORD";
+  print ("YOUR BOTH PASSWORDS ARE MISMATCHED: PLEASE ${checking}");
+  print ("\n");
+  
+  print ("SOLUTION FOR PART (e):");
+  print ("**********************");
+  password1 = "Izhan123";
+  password2 = "Izhan123";
+  if (password1 == password2){
+    print ("Correct! The Password You Entered Matches The Original Password,That Is: ${password1} ");
+  }
+  else {
+    print ("Incorrect Password");
+  }
+  print ("\n                ***THE END OF QUESTION 7***");
+}
+  

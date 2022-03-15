@@ -1,0 +1,24 @@
+void main() {
+  
+  print ("Question 4)What is a difference between these operators “?? And?”");
+  
+ print ("\n"); 
+  var a = 15;
+  var b = 20;
+  var c = (a>=10) ? "STATEMENT 1 IS CORRECT": "STATEMENT 1 IS WRONG";
+  print ("THE ANSWER OF FIRST EXPRESSION IS: ${c}");
+  
+  
+  print ("\n");
+  var x;
+  var y = x ?? "x HAS null VALUE";
+  print ("THE ANSWER OF SECOND EXPRESSION IS: ${y}");
+  
+  
+  print ("\n");
+  x = 25;
+  y = x ?? "x HAS null Value";
+  print ("THE ANSWER OF THIRD EXPRESSION IS: ${y}"); 
+  
+  print ("\n          ***** THE END OF QUESTION 4 *****");
+}

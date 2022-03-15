@@ -1,0 +1,105 @@
+void main() {
+  
+  print ("Question 1)What are the various types of operators in dart? Explain with Examples.");
+  
+  print ("\nAnswer Is : There Are 3 Types Of Operators In Dart.");
+ 
+  print ("\n1. ARITHMATIC OPERATORS WITH EXAMPLE");
+    
+   int num1 = 45; 
+  int num2 = 65;
+  print ("\nThe Answer Of Add Operator Is: ${num1+num2}");
+  
+  
+  int num3 = 68;
+  int num4 = 56;
+  print ("\nThe Answer Of Subtract Operator Is: ${num3-num4}");
+  
+  
+  int num5 = 9;
+  int num6 = 5;
+  print ("\nThe Answer Of Multiplication Operator Is: ${num5*num6}");
+  
+  
+  int num7 = 45;
+  int num8 = 5;
+  print ("\nThe Answer Of Divide Operator Is: ${num7/num8}");
+  
+  
+  int num9 = 55;
+  int num10 = 23;
+  print ("\nThe Answer Of Divide, Integer Result Operator Is: ${num9~/num10}");
+  
+   
+  int num11 = 13;
+  int num12 = 5;
+  print ("\nThe Answer Of Remainder Operator Is: ${num11%num12}");
+  
+  
+  print ("\n***************************************************");
+    
+    
+ print ("\n2. RELATIONAL OPERATORS WITH EXAMPLE");
+    
+    var a = 64;
+    var b = 45;
+    bool output = a > b;
+    print ("\nThe Answer Of Greater Than Sign Operator Is: ${output}");
+
+    
+    var c = 87;
+    var d = 68;
+    bool result = c < d;
+        print ("\nThe Answer Of Less Than Sign Operator Is: ${result}");
+    
+    
+    var e = 47;
+    var f = 42;
+    bool check = e >= f;
+        print ("\nThe Answer Of Greater Than Equals To Sign Operator Is: ${check}");
+    
+    
+    var g = 100;
+    var h = 95;
+    bool finalresult = g <= h;
+        print ("\nThe Answer Of Less Than Equals To Sign Operator Is: ${finalresult}");
+    
+    
+    var i = 50;
+    var j = 50;
+    bool finaloutput = i == j;
+        print ("\nThe Answer Of Equals To Sign Operator Is: ${finaloutput}");
+    
+    
+    var x = 25;
+    var y = 23;
+    bool finalcheck = x != y;
+        print ("\nThe Answer Of Not Equals To Sign Operator Is: ${finalcheck}");
+    
+    
+  print ("\n***************************************************");
+    
+    
+     print ("\n3. LOGICAL OPERATORS WITH EXAMPLE");
+    
+    int num13 = 20;
+    int num14 = 15;
+    bool checking = num14 < 20 && num13 > 15;
+            print ("\nThe Answer Of AND Operator Is: ${checking}");
+    
+    
+    int num15 = 5;
+    int num16 = 7;
+    bool status = num15 < 7 || num16 < 5;
+            print ("\nThe Answer Of OR Operator Is: ${status}");
+    
+    
+    int num17 = 35;
+    bool finalstatus = !(num17 > 50);
+            print ("\nThe Answer Of Not Operator Is: ${finalstatus}");
+  
+    print ("\n***************************************************");
+
+  print ("\n              ***THE END OF QUESTION 1***");
+
+}

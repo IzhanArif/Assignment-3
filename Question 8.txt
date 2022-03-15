@@ -1,0 +1,34 @@
+void main() {
+  
+  print ("Question 8)Write a program to store 3 student names in an array. Take another array to store score of these three students. Assume that total marks are 500 for each student, display the scores & percentages sof students.");
+  print ("\n********************************************");
+  print ("\n");
+  var stdname1 = "Anas";
+  var stdname2 = "Ahmed";
+  var stdname3 = "Tariq";
+  
+  int score1 = 348;
+  int score2 = 421;
+  int score3 = 387;
+  
+  num overallscr1 = 500;
+  num overallscr2 = 500;
+  num overallscr3 = 500;
+  
+  print ("S.NO.      STUDENT NAME      SCOREOBTAINED      TOTALSCORE");
+  print ("\n**********************************************************");
+  print ("\n1.            Anas                348                 500");
+  print ("\n2.            Ahmed               421                 500");
+  print ("\n3.            Tariq               387                 500");
+  
+  print ("\n**********************************************************");
+  
+  print ("\nTHE FIRST STUDENT, ${stdname1} HAS GOT ${score1} OUT OF ${overallscr1} AND HIS PERCENTAGE IS ${score1/overallscr1*100}%");
+
+  print ("\nTHE SECOND STUDENT, ${stdname2} HAS GOT ${score2} OUT OF ${overallscr2} AND HIS PERCENTAGE IS ${score2/overallscr2*100}%");
+
+  print ("\nTHE THIRD STUDENT, ${stdname3} HAS GOT ${score3} OUT OF ${overallscr3} AND HIS PERCENTAGE IS ${score3/overallscr3*100}%");
+  
+  print ("\n                  *****THE END OF QUESTION 8*****");
+}
+  

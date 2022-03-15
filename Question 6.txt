@@ -1,0 +1,34 @@
+void main() {
+  
+  print ("Question 6)Solve:");
+  print ("\n a)First declare an array and assign the numbers of the table of 7.");
+  print ("\n b)Second declare another array and assign the numbers 1-10");
+  print ("\n c)Now write down the table of 7 using map.fromiterables method.");
+  print ("\n*****************************************************************");
+  print ("\nSolution Of Part (a):");
+  print ("\n*********************");
+  print ("\n");
+  
+  int num = 7;
+  for  (var i =1 ; i <= 10; i++) {
+    print (num);
+  }
+  
+    print ("\nSolution Of Part (b):");
+  print ("\n***********************");
+  print ("\n");
+  
+   for(var numb=1; numb<=10; numb++){
+     print ("${num} x ${numb}");
+   }
+
+   print ("\nSolution Of Part (c):");
+  print ("\n**********************");
+  print ("\n");
+  
+  for(var numb=1; numb<=10; numb++){
+     print ("${num} x ${numb} = ${num*numb}");  
+ 
+}
+  print ("\n          ***THE END OF QUESTION 6***");
+}

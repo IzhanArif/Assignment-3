@@ -1,0 +1,70 @@
+void main() {
+  
+  print ("Question 5)What are the data types supported in Dart? Explain with Examples.");
+  print ("\nTHE ANSWER IS GIVEN BELOW ALONG WITH EXAMPLES");
+  print ("\nDATA TYPE OF NUMBERS:");
+  print ("\nNUMBERS ARE DEFINED AS INT, NUM, AND DOUBLE");
+  
+  int a = 10;
+  int b = 15;
+  print ("\n1.THE ANSWER OF INT TYPE IS: ${a+b}");
+  
+  num c = 45;
+  num d = 23.5;
+  print ("2.THE ANSWER OF NUM TYPE IS: ${c+d}");
+  
+  double e = 22.5;
+  double f = 22.5;
+  print ("3.THE ANSWER OF DOUBLE TYPE IS: ${e+f}");
+  
+  print ("\n************************************");
+  
+  print ("\nDATA TYPE OF STRING:");
+  print ("\nSTRINGS ARE DEFINED AS:");
+  
+  String name = "Izhan";
+  String email = "izhanrf@gmail.com";
+  print ("\nMY NAME IS ${name} and MY EMAIL IS ${email}");
+  
+  print ("\n************************************");
+  
+  print ("\nDATA TYPE OF BOOLEANS");
+  print ("\nBOOLS ARE DEFINED AS:");
+  
+  var x = 50;
+  var y = 25;
+  bool check = x > y;
+  print ("\n1.THE ANSWER OF FIRST BOOL EXPRESSION IS ${check}");
+  
+  var p = 20;
+  var q = 10;
+  bool check2 = p < q;
+  print ("\n2.THE ANSWER OF SECOND BOOL EXPRESSION IS ${check2}");
+  
+  print ("\n************************************");
+
+  print ("\nDATA TYPE OF LIST");
+  print ("\nLIST IS DEFINED AS:");
+  
+  List g = [1,3,5,7,9,11,13,15];
+  print ("\nTHIS LIST CONTAINS ALL THE ODD NUMBERS THAT ARE: ${g}");
+  
+  List h = [2,4,6,8,10,12,14,16];
+  print ("\nTHIS LIST CONTAINS ALL THE EVEN NUMBERS THAT ARE: ${h}");
+  
+  print ("\n************************************");
+  
+  print ("\nDATA TYPE OF MAP");
+  print ("\nMAP IS DEFINED AS:");
+  
+  Map data = {"Name": "Izhan", "Age": 18, "Education": "Intermediate"};
+  print ("\nTHE WHOLE DATA IS: ${data}");
+  print ("\nTHE KEYS OF THE DATA ARE: ${data.keys}");
+  print ("\nTHE VALUES OF THE DATA ARE: ${data.values}");
+  
+  print ("\n************************************");
+
+  
+  print ("\n          ***** THE END OF QUESTION 5 *****");
+
+}

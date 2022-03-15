@@ -1,0 +1,12 @@
+void main() {
+ 
+  print ("Question 2)Cost of one movie ticket is 600 PKR. Write a script to store ticket price in a variable & calculate the cost of buying 5 tickets to a movie");
+  print ("\nThe Answer Is:");
+  
+  var priceofoneticket = 600;
+  var numberofticketswehavetobuy = 5;
+  var priceoffivetickets = priceofoneticket * numberofticketswehavetobuy;
+  print ("\nTHE PRICE OF 1 TICKET IS ${priceofoneticket} PKR , SO THE PRICE OF 5 TICKETS WILL BE ${priceoffivetickets} PKR");
+  
+ print ("\n             ***THE END OF QUESTION 2***");
+}

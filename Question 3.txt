@@ -1,0 +1,17 @@
+void main() {
+ 
+ print ("Question 3)How to get difference of lists in Dart?");
+ print ("Problem: Consider you have two lists [1,2,3,4,5,6,7] and [3,5,6,7,9,10]."); 
+ print ("How would you get the difference as output? E.g. [1, 2, 4].");
+  print ("\n****************************");
+  List<int> first = [1,2,3,4,5,6,7];
+  print ("\nTHE FIRST LIST IS: ${first}");
+List<int> second = [3,5,6,7,9,10];
+  print ("\nTHE SECOND LIST IS: ${second}");
+
+List<int> difference = first.toSet().difference(second.toSet()).toList();
+print("\nANSWER: THE DIFFERENCE OF LIST IS: ${difference.toString()}");
+  
+  print ("\n             *****THE END OF QUESTION 3*****");
+  
+}
